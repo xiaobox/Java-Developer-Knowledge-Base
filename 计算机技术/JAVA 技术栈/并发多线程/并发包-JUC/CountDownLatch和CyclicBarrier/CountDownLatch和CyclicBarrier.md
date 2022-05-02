@@ -18,7 +18,7 @@
 
 CountDownLatch其实可以把它看作一个计数器，这个计数器的操作是**原子操作**，同时只能有一个线程去操作这个计数器，也就是同时只能有一个线程去减这个计数器里面的值。
 
-内部使用AQS同步状态来表示计数。计数为0时，所有的Acquire操作（CountDownLatch的await方法）才可以通过。具体可以参考 [彻底理解 AQS（AbstractQueuedSynchronizer）](../彻底理解%20AQS（AbstractQueuedSynchro/彻底理解%20AQS（AbstractQueuedSynchronizer）.md> "彻底理解 AQS（AbstractQueuedSynchronizer）")
+内部使用AQS同步状态来表示计数。计数为0时，所有的Acquire操作（CountDownLatch的await方法）才可以通过。具体可以参考 [彻底理解 AQS（AbstractQueuedSynchronizer）](../彻底理解%20AQS（AbstractQueuedSynchro/彻底理解%20AQS（AbstractQueuedSynchronizer）.md "彻底理解 AQS（AbstractQueuedSynchronizer）")
 
 ### 例子
 

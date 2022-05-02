@@ -16,7 +16,7 @@
 
 [Fork/Join 框架](Fork-Join%20框架/Fork-Join%20框架.md "Fork/Join 框架")
 
-[彻底理解 AQS（AbstractQueuedSynchronizer）](彻底理解%20AQS（AbstractQueuedSynchro/彻底理解%20AQS（AbstractQueuedSynchronizer）.md> "彻底理解 AQS（AbstractQueuedSynchronizer）")
+[彻底理解 AQS（AbstractQueuedSynchronizer）](彻底理解%20AQS（AbstractQueuedSynchro/彻底理解%20AQS（AbstractQueuedSynchronizer）.md "彻底理解 AQS（AbstractQueuedSynchronizer）")
 
 [condition](condition/condition.md "condition")
 

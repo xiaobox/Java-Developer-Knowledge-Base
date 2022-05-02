@@ -2,7 +2,7 @@
 
 ## 前言
 
-了解 `ReentrantLock` 前，要先了解 `AQS` [彻底理解 AQS（AbstractQueuedSynchronizer）](../../彻底理解%20AQS（AbstractQueuedSynchro/彻底理解%20AQS（AbstractQueuedSynchronizer）.md> "彻底理解 AQS（AbstractQueuedSynchronizer）") 的知识，借助 了解 `AQS` 的知识能够更好地理解 `ReentrantLock`
+了解 `ReentrantLock` 前，要先了解 `AQS` [彻底理解 AQS（AbstractQueuedSynchronizer）](../../彻底理解%20AQS（AbstractQueuedSynchro/彻底理解%20AQS（AbstractQueuedSynchronizer）.md "彻底理解 AQS（AbstractQueuedSynchronizer）") 的知识，借助 了解 `AQS` 的知识能够更好地理解 `ReentrantLock`
 
 ## 定义
 
@@ -26,7 +26,7 @@
 
 ![](image/image_4jwVrWsb8J.png)
 
-AQS知识 请参考 [彻底理解 AQS（AbstractQueuedSynchronizer）](../../彻底理解%20AQS（AbstractQueuedSynchro/彻底理解%20AQS（AbstractQueuedSynchronizer）.md> "彻底理解 AQS（AbstractQueuedSynchronizer）") ，也就是说 `ReentrantLock` 的实现原理内部就是 `AQS` ，所以等于讨论的是 `AQS` 的实现原理。
+AQS知识 请参考 [彻底理解 AQS（AbstractQueuedSynchronizer）](../../彻底理解%20AQS（AbstractQueuedSynchro/彻底理解%20AQS（AbstractQueuedSynchronizer）.md "彻底理解 AQS（AbstractQueuedSynchronizer）") ，也就是说 `ReentrantLock` 的实现原理内部就是 `AQS` ，所以等于讨论的是 `AQS` 的实现原理。
 
 ### 可重入原理
 

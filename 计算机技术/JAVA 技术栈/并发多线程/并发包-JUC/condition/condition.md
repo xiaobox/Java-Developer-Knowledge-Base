@@ -8,7 +8,7 @@
 
 要想了解 `Condition` 的原理，要先了解 `AQS` 以及 `ReentrantLock`  ，路径如下：
 
-> [彻底理解 AQS（AbstractQueuedSynchronizer）](../彻底理解%20AQS（AbstractQueuedSynchro/彻底理解%20AQS（AbstractQueuedSynchronizer）.md> "彻底理解 AQS（AbstractQueuedSynchronizer）")—>[ReentrantLock](../锁/ReentrantLock/ReentrantLock.md "ReentrantLock")—>Condition
+> [彻底理解 AQS（AbstractQueuedSynchronizer）](../彻底理解%20AQS（AbstractQueuedSynchro/彻底理解%20AQS（AbstractQueuedSynchronizer）.md "彻底理解 AQS（AbstractQueuedSynchronizer）")—>[ReentrantLock](../锁/ReentrantLock/ReentrantLock.md "ReentrantLock")—>Condition
 
 ## 介绍
 
@@ -81,7 +81,7 @@ class BoundedBuffer {
 
 ![](image/image_HAzcspHcHO.png)
 
-condition是一个接口，其实现为 AQS 内部 的ConditionObject，有关ConditionObject(等待队列可以参考[彻底理解 AQS（AbstractQueuedSynchronizer）](../彻底理解%20AQS（AbstractQueuedSynchro/彻底理解%20AQS（AbstractQueuedSynchronizer）.md> "彻底理解 AQS（AbstractQueuedSynchronizer）"))
+condition是一个接口，其实现为 AQS 内部 的ConditionObject，有关ConditionObject(等待队列可以参考[彻底理解 AQS（AbstractQueuedSynchronizer）](../彻底理解%20AQS（AbstractQueuedSynchro/彻底理解%20AQS（AbstractQueuedSynchronizer）.md "彻底理解 AQS（AbstractQueuedSynchronizer）"))
 
 ### 数据结构
 
