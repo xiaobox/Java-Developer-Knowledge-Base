@@ -599,3 +599,6 @@ AIO 是完全异步非阻塞的模型，当客户端向服务端发起请求之�
 *   [https://cloud.tencent.com/developer/article/1488087](https://cloud.tencent.com/developer/article/1488087 "https://cloud.tencent.com/developer/article/1488087")
 
 *   [https://pdai.tech/md/java/io/java-io-nio-zerocopy.html#directbytebuffer](https://pdai.tech/md/java/io/java-io-nio-zerocopy.html#directbytebuffer "https://pdai.tech/md/java/io/java-io-nio-zerocopy.html#directbytebuffer")
+
+
+[序列化](序列化/序列化.md "序列化")
