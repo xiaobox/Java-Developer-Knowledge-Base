@@ -166,7 +166,7 @@ public class A {
 
 ![](image/image__4Vb1v_JDP.png)
 
-可以看到我们在没有进行 hashcode 运算的时候，所有的值都是空的。当我们计算完了 hashcode，对象头就是有了数据。因为是**小端存储**，所以你看的值是倒过来的。前 25bit 没有使用所以都是 0，后面 31bit 存的 hashcode。这跟 [上图](https://www.wolai.com/isYZXNGkKfrMT3wSFRhFGQ#dx2akyVReAYCUuARpK4Tna "上图") 64 位 markword 所描述的一样。
+可以看到我们在没有进行 hashcode 运算的时候，所有的值都是空的。当我们计算完了 hashcode，对象头就是有了数据。因为是**小端存储**，所以你看的值是倒过来的。前 25bit 没有使用所以都是 0，后面 31bit 存的 hashcode。这跟 [上图] 64 位 markword 所描述的一样。
 
 那么在无锁状态下  `ojbect header`  第一个字节 8 位存储的就是：
 
@@ -176,7 +176,7 @@ public class A {
 
 &#x20; 最后一位代表的锁标志为 1 ，表示该对象 **无锁**。
 
-> **然而锁标志位 2bit 只能表示 4 种状态（00,01,10,11）JVM 的做法将偏向锁和无锁的状态表示为同一个状态，然后根据** [**上图**](https://www.wolai.com/isYZXNGkKfrMT3wSFRhFGQ#dx2akyVReAYCUuARpK4Tna "上图") **中偏向锁的标识再去标识是无锁还是偏向锁状态。**
+> **然而锁标志位 2bit 只能表示 4 种状态（00,01,10,11）JVM 的做法将偏向锁和无锁的状态表示为同一个状态，然后根据** [**上图**] **中偏向锁的标识再去标识是无锁还是偏向锁状态。**
 
 Java 的对象头在对象的不同的状态下会有不同的表现形式，主要有三种状态
 
