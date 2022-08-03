@@ -1,5 +1,5 @@
 * text=auto
-*.md linguist-language=Java 
+*.md linguist-language=markdown 
 *.js linguist-language=Java
 *.css linguist-language=Java
 *.html linguist-language=Java
